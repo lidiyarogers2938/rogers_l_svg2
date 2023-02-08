@@ -27,7 +27,6 @@
     background-color: rgb(211, 177, 177);
     color: white;
     text-align: center;
-
 }
 
 .box-color2  {
@@ -54,10 +53,8 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 /* 3. ---Header--- */
  
 
-
-
 #header-logo {
-    height: 100px;
+    height: 70px;
     width: 270px;
     grid-column: 1/4;
     margin-top: 15px;
@@ -113,8 +110,19 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 .feature {
     width: 370px;
     height: 300px;
-    grid-column: span 4;
+    grid-column: span 4;    
 }
+
+/*hearts*/
+
+#blueheart:hover{opacity: 0.5;
+}
+
+#greenheart:hover{opacity: 0.5;
+}
+
+#redheart:hover{opacity: 0.5;}
+
 
 /* 6. ---Footer--- */
 
